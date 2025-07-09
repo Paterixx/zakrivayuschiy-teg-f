@@ -1,1 +1,43 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --first-font: 'Inter';
+  --second-font: 'PressStart2P';
+  --normal-weight: 410;
+  --bold-weight: 715;
+  --page-background: 
+    repeating-linear-gradient(to right, transparent, transparent 2px, #d3d3d3 2px, #d3d3d3 4px),
+    repeating-linear-gradient(to bottom, transparent, transparent 2px, #d3d3d3 2px, #d3d3d3 4px),
+    linear-gradient(#e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --pixel-font-wght: 400;
+  --block-background: #fff;
+  --block-border: 2px solid #000;
+  --block-width: clamp(23.438rem, 16.2859rem + 30.5157vw, 43.75rem);
+  --header-margin: 94px;
+  --card-gap: 50px;
+  --floppy-size: 21px;
+  --dialog-gap: 20px;
+  --dialog-size: 353px;
+  --footer-size: 25.5px 165.5px;
+  --footer-floppy: 15px 18.5px;
+  --footer-text-top: 20px;
+  --footer-text-left: 30px;
+  --heart-black: #000;
+  --heart-sparks: #FF0000;
+}
+
+@media (width <= 768px) {
+  :root {
+    --header-margin: 100px;
+    --card-gap: 52px;
+    --floppy-size: 28px;
+    --dialog-gap: 30px;
+    --dialog-size: 341px;
+    --footer-size: 40px 151px;
+    --footer-floppy: 15px 137px;
+    --footer-text-top: 51px;
+    --footer-text-left: 0;
+  }
+
+  .footer__button {
+    flex-direction: column;
+  }
+}
