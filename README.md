@@ -1,4 +1,5 @@
 https://github.com/Paterixx/zakrivayuschiy-teg-f.git
+https://paterixx.github.io/zakrivayuschiy-teg-f/
 
 1) Отступ между блоками не соответствует макету:
    на десктопе - https://disk.yandex.ru/i/r3arem5hpTbHvA
