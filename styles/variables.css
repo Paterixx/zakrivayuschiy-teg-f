@@ -1,6 +1,6 @@
 :root {
-  --first-font: 'Inter';
-  --second-font: 'PressStart2P';
+  --inter-font: 'Inter';
+  --ps2p-font: 'PressStart2P';
   --normal-weight: 410;
   --bold-weight: 715;
   --page-background: 
@@ -16,10 +16,9 @@
   --floppy-size: 21px;
   --dialog-gap: 20px;
   --dialog-size: 353px;
-  --footer-size: 25.5px 165.5px;
-  --footer-floppy: 15px 18.5px;
-  --footer-text-top: 20px;
-  --footer-text-left: 30px;
+  --save-floppy: 15px 18.5px;
+  --save-text-top: 20px;
+  --save-text-left: 30px;
   --heart-black: #000;
   --heart-sparks: #FF0000;
 }
@@ -31,13 +30,8 @@
     --floppy-size: 28px;
     --dialog-gap: 30px;
     --dialog-size: 341px;
-    --footer-size: 40px 151px;
-    --footer-floppy: 15px 137px;
-    --footer-text-top: 51px;
-    --footer-text-left: 0;
-  }
-
-  .footer__button {
-    flex-direction: column;
+    --save-floppy: 15px 137px;
+    --save-text-top: 51px;
+    --save-text-left: 0;
   }
 }

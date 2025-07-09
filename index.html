@@ -16,21 +16,25 @@
   <body class="page">
     <header class="header">
       <h1 class="header__title">&lt;/html&gt;</h1>
-      <h2 class="header__subtitle">закрывающий тег</h2>
+      <p class="header__subtitle">закрывающий тег</p>
     </header>
     <main class="cards">
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           Фритрек и нулевой спринт: Подготовка к работе
-        </h3>
-        <div class="card__image-block">
-          <img
-            class="card__image"
-            src="./images/car.png"
-            alt="Грузовик в лесу"
-          />
-          <span class="card__image--watermark">&lt;/html&gt;</span>
-        </div>
+        </h2>
+        <figure class="card__image-block">
+          <picture>
+            <source srcset="./images/car.webp" type="image/webp">
+            <img
+              class="card__image"
+              src="./images/car.png"
+              alt="Грузовик в лесу"
+              loading="lazy"
+            />
+          </picture>
+          <figcaption class="card__image--watermark">&lt;/html&gt;</figcaption>
+        </figure>
         <div class="card__text">
           <p class="card__paragraph">
             Это было самое начало пути. На этом этапе важно было проникнуться
@@ -39,7 +43,7 @@
           </p>
           <p class="card__paragraph">Кое-как пытаюсь успеть сдать ПР4!!! ^_^</p>
           <div class="card__button">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
               <svg
                 class="like-icon"
                 width="39"
@@ -70,22 +74,26 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button" aria-label="Поставить лайк">
               <span class="button__text difference">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">1 спринт: Я — чистый лист</h3>
-        <div class="card__image-block">
-          <img
-            class="card__image"
-            src="./images/car.png"
-            alt="Грузовик в лесу"
-          />
-          <span class="card__image--watermark">&lt;/html&gt;</span>
-        </div>
+        <h2 class="card__title">1 спринт: Я — чистый лист</h2>
+        <figure class="card__image-block">
+          <picture>
+            <source srcset="./images/car.webp" type="image/webp">
+            <img
+              class="card__image filter-contrast"
+              src="./images/car.png"
+              alt="Грузовик в лесу"
+              loading="lazy"
+            />
+          </picture>
+          <figcaption class="card__image--watermark">&lt;/html&gt;</figcaption>
+        </figure>
         <div class="card__text">
           <p class="card__paragraph">
             На первых этапах мы работали со страхами и сомнениями, которые часто
@@ -96,7 +104,7 @@
           </p>
           <p class="card__paragraph">Кое-как пытаюсь успеть сдать ПР4!!! ^_^</p>
           <div class="card__button">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
               <svg
                 class="like-icon"
                 width="39"
@@ -127,22 +135,26 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button" aria-label="Поставить лайк">
               <span class="button__text difference">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">3 спринт: Обходные стратегии</h3>
-        <div class="card__image-block">
-          <img
-            class="card__image"
-            src="./images/car.png"
-            alt="Грузовик в лесу"
-          />
-          <span class="card__image--watermark">&lt;/html&gt;</span>
-        </div>
+        <h2 class="card__title">3 спринт: Обходные стратегии</h2>
+        <figure class="card__image-block">
+          <picture>
+            <source srcset="./images/car.webp" type="image/webp">
+            <img
+              class="card__image filter-grayscale-hue"
+              src="./images/car.png"
+              alt="Грузовик в лесу"
+              loading="lazy"
+            />
+          </picture>
+          <figcaption class="card__image--watermark">&lt;/html&gt;</figcaption>
+        </figure>
         <div class="card__text">
           <p class="card__paragraph">
             На этом курсе вы постоянно решали разные задачи. В какой-то момент
@@ -151,7 +163,7 @@
           </p>
           <p class="card__paragraph">Кое-как пытаюсь успеть сдать ПР4!!! ^_^</p>
           <div class="card__button">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
               <svg
                 class="like-icon"
                 width="39"
@@ -182,22 +194,26 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button" aria-label="Поставить лайк">
               <span class="button__text difference">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">2 спринт: Погоня за идеалом</h3>
-        <div class="card__image-block">
-          <img
-            class="card__image"
-            src="./images/car.png"
-            alt="Грузовик в лесу"
-          />
-          <span class="card__image--watermark">&lt;/html&gt;</span>
-        </div>
+        <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
+        <figure class="card__image-block">
+          <picture>
+            <source srcset="./images/car.webp" type="image/webp">
+            <img
+              class="card__image filter-saturated"
+              src="./images/car.png"
+              alt="Грузовик в лесу"
+              loading="lazy"
+            />
+          </picture>
+          <figcaption class="card__image--watermark">&lt;/html&gt;</figcaption>
+        </figure>
         <div class="card__text">
           <p class="card__paragraph">
             На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы
@@ -208,7 +224,7 @@
           </p>
           <p class="card__paragraph">Кое-как пытаюсь успеть сдать ПР4!!! ^_^</p>
           <div class="card__button">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
               <svg
                 class="like-icon"
                 width="39"
@@ -239,22 +255,26 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button" aria-label="Поставить лайк">
               <span class="button__text difference">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">2 спринт: О тех, кто рядом</h3>
-        <div class="card__image-block">
-          <img
-            class="card__image"
-            src="./images/car.png"
-            alt="Грузовик в лесу"
-          />
-          <span class="card__image--watermark">&lt;/html&gt;</span>
-        </div>
+        <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
+        <figure class="card__image-block">
+          <picture>
+            <source srcset="./images/car.webp" type="image/webp">
+            <img
+              class="card__image filter-sepia"
+              src="./images/car.png"
+              alt="Грузовик в лесу"
+              loading="lazy"
+            />
+          </picture>
+          <figcaption class="card__image--watermark">&lt;/html&gt;</figcaption>
+        </figure>
         <div class="card__text">
           <p class="card__paragraph">
             Всё это время вы были не одиноки (хотя, возможно, иногда и
@@ -266,7 +286,7 @@
           </p>
           <p class="card__paragraph">Кое-как пытаюсь успеть сдать ПР4!!! ^_^</p>
           <div class="card__button">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
               <svg
                 class="like-icon"
                 width="39"
@@ -297,22 +317,26 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button" aria-label="Поставить лайк">
               <span class="button__text difference">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">1 спринт: А если не получится?</h3>
-        <div class="card__image-block">
-          <img
-            class="card__image"
-            src="./images/car.png"
-            alt="Грузовик в лесу"
-          />
-          <span class="card__image--watermark">&lt;/html&gt;</span>
-        </div>
+        <h2 class="card__title">1 спринт: А если не получится?</h2>
+        <figure class="card__image-block">
+          <picture>
+            <source srcset="./images/car.webp" type="image/webp">
+            <img
+              class="card__image filter-invert-contrast"
+              src="./images/car.png"
+              alt="Грузовик в лесу"
+              loading="lazy"
+            />
+          </picture>
+          <figcaption class="card__image--watermark">&lt;/html&gt;</figcaption>
+        </figure>
         <div class="card__text">
           <p class="card__paragraph">
             Первый проект — позади! Но это всё ещё самое начало пути. Радость
@@ -321,7 +345,7 @@
           </p>
           <p class="card__paragraph">Кое-как пытаюсь успеть сдать ПР4!!! ^_^</p>
           <div class="card__button">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
               <svg
                 class="like-icon"
                 width="39"
@@ -352,22 +376,26 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button" aria-label="Поставить лайк">
               <span class="button__text difference">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">3 спринт: Когда опускаются руки</h3>
-        <div class="card__image-block">
-          <img
-            class="card__image"
-            src="./images/car.png"
-            alt="Грузовик в лесу"
-          />
-          <span class="card__image--watermark">&lt;/html&gt;</span>
-        </div>
+        <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
+        <figure class="card__image-block">
+          <picture>
+            <source srcset="./images/car.webp" type="image/webp">
+            <img
+              class="card__image filter-cool-hue"
+              src="./images/car.png"
+              alt="Грузовик в лесу"
+              loading="lazy"
+            />
+          </picture>
+          <figcaption class="card__image--watermark">&lt;/html&gt;</figcaption>
+        </figure>
         <div class="card__text">
           <p class="card__paragraph">
             Во время учёбы часто возникает чувство, когда не знаешь, за что
@@ -378,7 +406,7 @@
           </p>
           <p class="card__paragraph">Кое-как пытаюсь успеть сдать ПР4!!! ^_^</p>
           <div class="card__button">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
               <svg
                 class="like-icon"
                 width="39"
@@ -409,22 +437,26 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button" aria-label="Поставить лайк">
               <span class="button__text difference">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">«Сейчас я здесь»</h3>
-        <div class="card__image-block">
-          <img
-            class="card__image"
-            src="./images/car.png"
-            alt="Грузовик в лесу"
-          />
-          <span class="card__image--watermark">&lt;/html&gt;</span>
-        </div>
+        <h2 class="card__title">«Сейчас я здесь»</h2>
+        <figure class="card__image-block">
+          <picture>
+            <source srcset="./images/car.webp" type="image/webp">
+            <img
+              class="card__image filter-vintage"
+              src="./images/car.png"
+              alt="Грузовик в лесу"
+              loading="lazy"
+            />
+          </picture>
+          <figcaption class="card__image--watermark">&lt;/html&gt;</figcaption>
+        </figure>
         <div class="card__text">
           <p class="card__paragraph">
             Сейчас вы уже очень много знаете о вёрстке. Но это только начало.
@@ -436,7 +468,7 @@
           </p>
           <p class="card__paragraph">Кое-как пытаюсь успеть сдать ПР4!!! ^_^</p>
           <div class="card__button">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button" aria-label="Поставить лайк">
               <svg
                 class="like-icon"
                 width="39"
@@ -467,45 +499,49 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button class="button card__like-button" type="button" aria-label="Поставить лайк">
               <span class="button__text difference">Like</span>
             </button>
           </div>
         </div>
       </article>
-    </main>
-    <footer class="footer">
-      <button
+      <section class="save">
+        <button
         onclick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
-        class="button footer__button"
-      >
-        <svg
-          class="footer__floppy"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 39 39"
+        class="button save__button"
+        type="button"
+        aria-label="Сохранить на память"
         >
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="footer__button--text difference">Сохранить на память</span>
-      </button>
-      <dialog id="dialog-id" class="dialog">
-        <svg
-          class="dialog__floppy"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 39 39"
-        >
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="dialog__text">Вставьте дискету, чтобы продолжить</span>
-        <button
-          onclick="window['dialog-id'].close()"
-          class="button dialog__button"
-        >
-          <span class="difference">ок</span>
+          <svg
+            class="save__floppy"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 39 39"
+          >
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <span class="save__button--text difference">Сохранить на память</span>
         </button>
-      </dialog>
-    </footer>
+        <dialog id="dialog-id" class="dialog">
+          <svg
+            class="dialog__floppy"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 39 39"
+          >
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <span class="dialog__text">Вставьте дискету, чтобы продолжить</span>
+          <button
+            onclick="window['dialog-id'].close()"
+            class="button dialog__button"
+            type="button"
+            aria-label="ок"
+          >
+            <span class="difference">ок</span>
+          </button>
+        </dialog>
+      </section>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
