@@ -15,7 +15,7 @@
 .header {
   margin-bottom: var(--header-margin);
   border: var(--block-border);
-  padding: clamp(7.5rem, 7.2799rem + 0.9390vw, 8.125rem) clamp(1rem, -1.3437rem + 9.9996vw, 7.656rem); 
+  padding: clamp(7.5rem, 7.2799rem + 0.9390vw, 8.125rem) clamp(1rem, -1.3437rem + 9.9996vw, 7.656rem);
   font-family: var(--second-font), sans-serif;
   text-align: center;
   text-transform: uppercase;
