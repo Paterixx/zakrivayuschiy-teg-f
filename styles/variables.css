@@ -1,6 +1,6 @@
 :root {
-  --inter-font: 'Inter';
-  --ps2p-font: 'PressStart2P';
+  --main-font: 'Inter';
+  --accent-font: 'PressStart2P';
   --normal-weight: 410;
   --bold-weight: 715;
   --page-background: 
@@ -19,6 +19,8 @@
   --save-floppy: 15px 18.5px;
   --save-text-top: 20px;
   --save-text-left: 30px;
+  --save-button-padding: 14px 18px;
+  --save-button-gap: 8px;
   --heart-black: #000;
   --heart-sparks: #FF0000;
 }
@@ -33,5 +35,7 @@
     --save-floppy: 15px 137px;
     --save-text-top: 51px;
     --save-text-left: 0;
+    --save-button-padding: 15.5px 18px 9px;
+    --save-button-gap: 6px;
   }
 }
