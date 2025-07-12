@@ -11,11 +11,12 @@
   --block-background: #fff;
   --block-border: 2px solid #000;
   --block-width: clamp(23.438rem, 16.2859rem + 30.5157vw, 43.75rem);
-  --header-margin: 94px;
+  --header-margin: 98px;
   --card-gap: 50px;
   --floppy-size: 21px;
-  --dialog-gap: 20px;
   --dialog-size: 353px;
+  --dialog-padding: 28px;
+  --dialog-button: 10.71px 128.5px;
   --save-floppy: 15px 18.5px;
   --save-text-top: 20px;
   --save-text-left: 30px;
@@ -30,8 +31,9 @@
     --header-margin: 100px;
     --card-gap: 52px;
     --floppy-size: 28px;
-    --dialog-gap: 30px;
     --dialog-size: 341px;
+    --dialog-padding: 28px 38px;
+    --dialog-button: 10.71px 114.5px;
     --save-floppy: 15px 137px;
     --save-text-top: 51px;
     --save-text-left: 0;
